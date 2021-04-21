@@ -9,6 +9,3 @@ docker run -it --rm \
 	--volume=$(pwd):/home/catkin_ws \
 	--device=/dev/video0:/dev/video0 \
 	yolo_ros:last /bin/bash -c "source devel/setup.bash && roslaunch darknet_ros yolo_ros.launch"
-
-# /bin/bash -c "source devel/setup.bash && roslaunch darknet_ros yolo_ros.launch"
-# source devel/setup.bash && roslaunch darknet_ros yolo_ros.launch
